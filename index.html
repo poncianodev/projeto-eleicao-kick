@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Eleições | Kick</title>
+  </head>
+  <body class="body-light">
+    <header>
+      <h1>Eleições Kick 2024</h1>
+
+      <div class="dark-mode">
+        <ion-icon name="sunny-outline" class="sun"></ion-icon>
+        <ion-icon name="moon-outline" class="moon"></ion-icon>
+      </div>
+    </header>
+
+    <main>
+      <section id="candidatos">
+        <h2>Bem vindo! Escolha seu voto.</h2>
+
+        <div class="candidatos-container">
+          <div class="candidatos-cards">
+            <h3>Guilherme</h3>
+            <img src="./assets/img/guilherme.jpg" alt="" />
+            <button id="voto-guilherme">Votar!</button>
+          </div>
+          <div class="candidatos-cards">
+            <h3>Gustavo</h3>
+            <img src="./assets/img/gustavo.jpg" alt="" />
+            <button id="voto-gustavo">Votar!</button>
+          </div>
+          <div class="candidatos-cards">
+            <h3>Ana</h3>
+            <img src="./assets/img/ana.jpg" alt="" />
+            <button id="voto-ana">Votar!</button>
+          </div>
+          <div class="candidatos-cards">
+            <h3>Jorge</h3>
+            <img src="./assets/img/jorge.jpg" alt="" />
+            <button id="voto-jorge">Votar!</button>
+          </div>
+        </div>
+      </section>
+
+      <div class="votos">
+        <button id="voto-nulo">Nulo</button>
+        <button id="voto-branco">Branco</button>
+      </div>
+    </main>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
